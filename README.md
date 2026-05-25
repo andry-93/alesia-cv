@@ -1,48 +1,54 @@
-# Alesia Zayats — CV Website
+# Alesia Zayats — CV Website (Next.js)
 
-Lead IT Recruiter / Recruitment Team Lead — одностраничный CV-сайт с поддержкой двух языков.
+Lead IT Recruiter / Recruitment Team Lead — CV-сайт с EN/RU локализацией.
 
-**Live:** https://alesiaz19.github.io/alesia-cv/
-
-## Особенности
-
-- **Два языка** — EN/RU через `?lang=ru` в URL, автодетекция браузера
-- **SEO** — meta/OG/Twitter/JSON-LD, sitemap, robots, hreflang
-- **Дизайн** — тёмная тема, glassmorphism, адаптивная вёрстка
-- **CV .docx** — кнопка скачивания актуального резюме
-- **GitHub Pages** — деплой одной командой
-
-## Структура
-
-```
-├── index.html          # Основная страница
-├── style.css           # Единый файл стилей
-├── script.js           # Рендеринг, переключение языка, анимации
-├── data.js             # Весь контент (EN + RU)
-├── Alesia_Zayats_CV.docx
-├── robots.txt
-├── sitemap.xml
-├── img/                # Сертификаты (jpeg)
-└── unpacked_cv/        # DOCX исходники (document.xml)
-```
-
-## Разработка
-
-Открой `index.html` в браузере — всё работает из коробки.
-
-### Редактирование контента
-
-Все тексты в `data.js` — два блока (en, ru). Добавление/изменение секций — в `script.js` (функции `render*`).
-
-### Редактирование DOCX
+## Development
 
 ```bash
-cp Alesia_Zayats_CV.docx cv_temp.zip
-unzip -o cv_temp.zip -d unpacked_cv/
-# правим unpacked_cv/word/document.xml
-cd unpacked_cv && zip -r ../Alesia_Zayats_CV.docx * && cd ..
+cp .env.example .env.local
+npm install
+npm run dev
 ```
 
-## Технологии
+## Build
 
-HTML5, CSS3 (CSS Variables, clamp, glassmorphism), Vanilla JS (ES6+).
+```bash
+npm run build
+npm run start
+```
+
+## Localization
+
+- EN route: `/` (canonical)
+- RU route: `/ru`
+- Legacy compatibility: `/?lang=ru` permanently redirects to `/ru`
+
+## Locale behavior
+
+- First visit without preference:
+  - RU browser language redirects `/` -> `/ru`
+  - non-RU stays on `/`
+- Manual language switch persists in:
+  - cookie: `locale=en|ru`
+  - localStorage: `locale`
+- Manual selection always has priority over auto-detection.
+
+## Vercel Deployment
+
+1. Import repository in Vercel.
+2. Framework preset: `Next.js`.
+3. Add environment variable:
+   - `NEXT_PUBLIC_SITE_URL` = your production domain (for example `https://alesia-cv.vercel.app`).
+4. Deploy.
+
+After deploy, verify:
+
+- `/` and `/ru` pages render correctly
+- `/sitemap.xml` and `/robots.txt` use your production domain
+- `/?lang=ru` redirects to `/ru`
+
+## SEO
+
+- Route-level metadata per locale (`title`, `description`, OG, Twitter)
+- Route-level JSON-LD per locale
+- Next-generated `sitemap.xml` and `robots.txt`

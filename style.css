@@ -333,6 +333,10 @@ section.visible {
     position: relative;
     z-index: 1;
     flex: 1;
+    border: 0;
+    background: transparent;
+    padding: 0;
+    font-family: inherit;
     text-align: center;
     font-size: 0.7rem;
     font-weight: 600;
@@ -340,6 +344,7 @@ section.visible {
     color: var(--text-secondary);
     transition: color 0.3s;
     line-height: 24px;
+    cursor: pointer;
 }
 
 .lang-opt.active {
@@ -415,16 +420,17 @@ section.visible {
     padding: 5rem 2rem 2rem;
     transform: translateY(-100%);
     transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1), visibility 0s 0.35s;
-    z-index: 999;
+    z-index: 1002;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
     visibility: hidden;
     pointer-events: none;
+    padding-bottom: 1rem;
 }
 
 .mobile-menu.active {
@@ -437,6 +443,39 @@ section.visible {
     list-style: none;
     text-align: center;
     width: 100%;
+}
+
+.mobile-lang-item {
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+}
+
+.mobile-lang-dock {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    width: min(360px, 92%);
+    margin: 0 auto;
+    padding: 0.75rem 0.9rem;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 1rem;
+    background: rgba(15, 23, 42, 0.72);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+.mobile-lang-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+}
+
+.mobile-lang-toggle {
+    margin-left: auto;
 }
 
 .mobile-nav-link {
@@ -896,6 +935,19 @@ section[id] {
 
     .mobile-menu {
         padding: 4rem 1rem 1rem;
+    }
+
+    .mobile-lang-dock {
+        padding: 0.65rem 0.75rem;
+        border-radius: 0.9rem;
+    }
+
+    .mobile-lang-item {
+        margin-top: 0.25rem;
+    }
+
+    .mobile-lang-label {
+        font-size: 0.7rem;
     }
 
     .mobile-nav-link {

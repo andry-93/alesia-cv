@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://alesiaz19.github.io/alesia-cv/sitemap.xml

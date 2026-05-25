@@ -6,3 +6,7 @@
 *.iml
 out
 gen
+.next
+node_modules
+out
+dist
