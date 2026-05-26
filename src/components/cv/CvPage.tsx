@@ -3,6 +3,7 @@ import type { Locale } from '@/types/cv';
 import { getUi } from '@/lib/i18n';
 import { CvPageClient } from './CvPageClient';
 import { LocaleSwitch } from './LocaleSwitch';
+import { MobileMenuCloseButton } from './MobileMenuCloseButton';
 
 function shortUrl(url: string) {
   if (url.includes('linkedin.com')) return url.split('/in/')[1]?.split('/')[0] || url;
@@ -32,6 +33,7 @@ export function CvPage({ locale }: { locale: Locale }) {
       </header>
 
       <div className="mobile-menu" id="mobileMenu">
+        <MobileMenuCloseButton />
         <ul className="mobile-nav-links" id="mobileNavLinks">
           {d.nav.map((item) => <li key={`m-${item.id}`}><a href={`#${item.id}`} className="mobile-nav-link">{item.label}</a></li>)}
           <li className="mobile-lang-item">

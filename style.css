@@ -433,6 +433,18 @@ section.visible {
     padding-bottom: 1rem;
 }
 
+.mobile-menu-close {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    background: none;
+    border: none;
+    color: var(--text-primary);
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
 .mobile-menu.active {
     transform: translateY(0);
     visibility: visible;
