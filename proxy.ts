@@ -24,21 +24,23 @@ export function proxy(request: NextRequest) {
     return NextResponse.next();
   }
 
+  // If visiting /ru explicitly, always allow it
+  if (pathname === '/ru') {
+    return nextWithLocale(request, 'ru');
+  }
+
+  // Logic for visiting /
   const cookieLocaleRaw = request.cookies.get(LOCALE_COOKIE)?.value;
   const cookieLocale = isLocale(cookieLocaleRaw) ? cookieLocaleRaw : null;
 
-  if (cookieLocale) {
-    const targetPath = pathForLocale(cookieLocale);
-    if (pathname !== targetPath) {
-      const url = request.nextUrl.clone();
-      url.pathname = targetPath;
-      url.search = '';
-      return NextResponse.redirect(url);
-    }
-    return nextWithLocale(request, cookieLocale);
+  if (cookieLocale === 'ru') {
+    const url = request.nextUrl.clone();
+    url.pathname = '/ru';
+    url.search = '';
+    return NextResponse.redirect(url);
   }
 
-  if (pathname === '/') {
+  if (!cookieLocale) {
     const detectedLocale = detectLocaleFromHeader(request.headers.get('accept-language'));
     if (detectedLocale === 'ru') {
       const url = request.nextUrl.clone();
@@ -48,7 +50,7 @@ export function proxy(request: NextRequest) {
     }
   }
 
-  return nextWithLocale(request, pathname === '/ru' ? 'ru' : 'en');
+  return nextWithLocale(request, 'en');
 }
 
 export const config = {
