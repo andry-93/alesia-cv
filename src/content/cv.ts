@@ -2,9 +2,9 @@ import type { CvDictionary } from '@/types/cv';
 
 export const cvData: CvDictionary = {
   "en": {
-    "pageTitle": "Alesia Zayats — Lead IT Recruiter",
+    "pageTitle": "Alesia Zayats — IT Recruiter",
     "name": "Alesia Zayats",
-    "heroTitle": "Lead IT Recruiter / Recruitment Team Lead",
+    "heroTitle": "IT Recruiter / Recruitment Team Lead",
     "heroStatus": "Open to work",
     "heroLocation": "Belarus, Minsk · Remote",
     "nav": [
@@ -47,7 +47,7 @@ export const cvData: CvDictionary = {
     ],
     "about": {
       "title": "About",
-      "text": "Lead IT Recruiter with 2.5+ years of experience driving full-cycle recruitment and partnering with hiring managers to solve complex hiring challenges. Strong focus on data-driven hiring, market intelligence, and stakeholder consulting. A strategic recruiter who advises business, not just fills roles."
+      "text": "IT Recruiter with 2.5+ years of experience in full-cycle technical recruitment, talent sourcing, and working closely with hiring managers across complex engineering roles. Experienced in managing multiple hiring processes at once, supporting candidates through hiring and onboarding, building talent pipelines, using market data to support hiring decisions, and improving recruitment processes through data-driven approaches."
     },
     "achievements": {
       "title": "Key Achievements",
@@ -65,28 +65,31 @@ export const cvData: CvDictionary = {
           "label": "Funnel conversion increase"
         },
         {
-          "number": "8",
-          "label": "Recruiters led"
-        },
-        {
-          "number": "95%",
-          "label": "Probation success"
-        },
-        {
-          "number": "2,000+",
-          "label": "Niche candidates"
+          "number": "50+",
+          "label": "Concurrent technical vacancies"
         }
       ]
     },
     "skills": {
       "title": "Core Skills",
       "items": [
+        "Technical Recruitment",
         "Full-cycle Recruitment",
+        "Stakeholder Management",
         "Hiring Manager Consulting",
         "Market Intelligence",
+        "Recruitment Analytics",
+        "Boolean Search",
+        "X-Ray Search",
+        "LinkedIn Recruiter",
+        "GitHub Sourcing",
+        "Data-driven Recruitment",
         "Offer Negotiation",
-        "Strategic Talent Pipeline Development",
-        "Data-driven Hiring"
+        "ATS Optimization",
+        "Employee Onboarding",
+        "Candidate Experience",
+        "Mentoring",
+        "Talent Sourcing"
       ]
     },
     "experience": {
@@ -97,10 +100,10 @@ export const cvData: CvDictionary = {
           "company": "Andersen",
           "position": "Lead Technical Recruiter / Recruitment Team Lead",
           "paragraphs": [
-            "Stakeholder Partnership & Consulting: Advising on talent market trends, salary benchmarks, and hiring feasibility, resulting in approximately 20% faster decision-making. Led intake sessions and refined Ideal Candidate Profiles, reducing misalignment and rework in the hiring process.",
-            "Full-Cycle Recruitment Leadership: Managed end-to-end recruitment for 50+ concurrent technical roles, ensuring 90%+ hiring plan delivery. Oversaw the hiring lifecycle from intake to offer acceptance, ensuring SLA adherence across all roles.",
-            "Analytics & Market Intelligence: Conducted market mapping and supply and demand analysis, optimizing hiring strategy for high-deficit roles. Built recruitment analytics dashboards, increasing transparency and improving hiring predictability.",
-            "Process & Strategy Impact: Developed strategic talent pipelines, reducing Time-to-Fill by 25% from 45 to 33 days. Optimized funnel conversion (+20%) by redesigning sourcing and screening approaches. Reduced inefficient sourcing efforts by 15% via vacancy prioritization framework."
+             "Stakeholder Partnership & Recruitment: Advised 15+ hiring managers on talent market trends, salary benchmarks, and hiring feasibility, helping reduce decision-making time by approximately 20%. Led intake sessions and refined Ideal Candidate Profiles, reducing misalignment and rework during the hiring process.",
+             "Full-Cycle Technical Recruitment: Managed end-to-end recruitment for 50+ concurrent technical roles, achieving 90%+ hiring plan completion. Managed the hiring process from intake through offer acceptance, ensuring SLA adherence across roles.",
+             "Market Intelligence & Recruitment Analytics: Analyzed talent markets and supply-and-demand data to improve hiring approaches for hard-to-fill roles. Built recruitment analytics dashboards to improve visibility and hiring predictability.",
+             "Recruitment Process Optimization: Built targeted talent pipelines, reducing Time-to-Fill by 25%, from 45 to 33 days. Improved funnel conversion by 20% by refining sourcing and screening processes. Reduced low-value sourcing activity by 15% by introducing a vacancy prioritization approach."
           ]
         },
         {
@@ -108,10 +111,10 @@ export const cvData: CvDictionary = {
           "company": "Aston",
           "position": "Technical Recruiter",
           "paragraphs": [
-            "Delivered full-cycle hiring for senior and architect-level roles (Java, .NET, DevOps, Data). Closed 15+ complex roles per quarter with 92% offer acceptance rate.",
-            "Market Intelligence & Analytics: Conducted salary research and market mapping, improving offer competitiveness and reducing offer declines. Built a reporting system for hiring managers, reducing intake-to-hire alignment time by 20%.",
-            "Quality & Hiring Decisions: Implemented structured screening, achieving a 95% probation success rate. Improved candidate experience, increasing offer conversion.",
-            "Strategic Sourcing: Built a pipeline of 2,000+ niche candidates, reducing time-to-hire by approximately 10 days."
+             "Full-Cycle Recruitment: Managed full-cycle recruitment for senior and architect-level roles across Java, .NET, DevOps, and Data. Filled 15+ complex roles per quarter with a 92% offer acceptance rate.",
+             "Market Intelligence & Analytics: Conducted salary research and market mapping to improve offer competitiveness and reduce offer declines. Built a reporting system for hiring managers, reducing intake-to-hire alignment time by 20%.",
+             "Quality, Onboarding & Candidate Support: Introduced structured screening, contributing to a 95% probation success rate. Kept in touch with new hires during onboarding and worked with HR, HRBP, and hiring managers to support a smooth transition into the role.",
+             "Technical Sourcing: Built a pipeline of 2,000+ niche candidates, reducing time-to-hire by approximately 10 days."
           ]
         },
         {
@@ -120,8 +123,8 @@ export const cvData: CvDictionary = {
           "position": "Corporate Recruiter",
           "paragraphs": [
             "Delivered 40+ hires monthly, exceeding targets by 110%.",
-            "Conducted high-volume screening (50+ interviews/day), ensuring fast hiring cycles.",
-            "Reduced candidate drop-off by 15% via improved communication and engagement.",
+             "Screened 50+ applicants daily through structured recruitment pipelines.",
+             "Reduced candidate drop-off by 15% through more consistent candidate communication and engagement.",
             "Maintained 90%+ probation success rate across placements."
           ]
         }
@@ -133,7 +136,7 @@ export const cvData: CvDictionary = {
         {
           "period": "2018 — 2022",
           "institution": "Moscow International University",
-          "degree": "Bachelor's Degree"
+          "degree": "Bachelor's Degree in Business Administration, Management & Operations"
         }
       ]
     },
@@ -143,19 +146,19 @@ export const cvData: CvDictionary = {
         {
           "file": "1738161283005.jpeg",
           "name": "Performance Review Specialist",
-          "date": "Jan 29, 2025",
+          "date": "Jan 2025",
           "issuer": "Aston"
         },
         {
           "file": "1701692277392.jpeg",
           "name": "IT Sourcer",
-          "date": "Dec 1, 2023",
+          "date": "Dec 2023",
           "issuer": "Aston"
         },
         {
           "file": "1704277092925.jpeg",
-          "name": "IT-RECRUITMENT CERTIFICATION COURSE",
-          "date": "Sep 5, 2023",
+          "name": "IT-Recruitment Certification Course",
+          "date": "Sep 2023",
           "issuer": "HRPR"
         }
       ]
@@ -165,11 +168,11 @@ export const cvData: CvDictionary = {
       "items": [
         {
           "name": "Russian",
-          "level": "Native speaker"
+          "level": "Native"
         },
         {
           "name": "English",
-          "level": "Intermediate (B1)"
+          "level": "B1 (Intermediate)"
         }
       ]
     },
@@ -185,9 +188,9 @@ export const cvData: CvDictionary = {
     }
   },
   "ru": {
-    "pageTitle": "Алеся Заяц — Ведущий IT-рекрутер",
+    "pageTitle": "Алеся Заяц — IT-рекрутер",
     "name": "Алеся Заяц",
-    "heroTitle": "Ведущий IT-рекрутер / Руководитель группы подбора",
+    "heroTitle": "IT-рекрутер / Руководитель команды рекрутинга",
     "heroStatus": "Открыта к предложениям",
     "heroLocation": "Беларусь, Минск · Удалённо",
     "nav": [
@@ -230,7 +233,7 @@ export const cvData: CvDictionary = {
     ],
     "about": {
       "title": "Обо мне",
-      "text": "Ведущий IT-рекрутер с опытом более 2,5 лет в полном цикле подбора. Работаю в плотной связке с нанимающими менеджерами, помогаю решать сложные задачи по найму. Ключевые направления — data-driven рекрутинг, аналитика рынка труда и консалтинг заказчиков. Стратегический партнёр для бизнеса, а не просто исполнитель заявок."
+      "text": "IT-рекрутер с опытом более 2,5 лет в полном цикле технического подбора, поиске специалистов и взаимодействии с нанимающими менеджерами по сложным инженерным позициям. Веду несколько процессов подбора одновременно, сопровождаю кандидатов на этапе выхода и адаптации, выстраиваю воронки кандидатов, использую данные рынка для принятия решений и улучшаю процессы рекрутинга на основе аналитики."
     },
     "achievements": {
       "title": "Ключевые результаты",
@@ -248,28 +251,34 @@ export const cvData: CvDictionary = {
           "label": "Рост конверсии воронки"
         },
         {
-          "number": "8",
-          "label": "Рекрутеров в команде"
-        },
-        {
-          "number": "95%",
-          "label": "Прохождение испытательного срока"
-        },
-        {
-          "number": "2,000+",
-          "label": "Нишевых кандидатов в базе"
+          "number": "50+",
+          "label": "Технических вакансий одновременно"
         }
       ]
     },
     "skills": {
       "title": "Ключевые навыки",
       "items": [
-        "Полный цикл подбора",
-        "Консалтинг заказчиков",
+        "Технический подбор",
+        "Полный цикл рекрутинга",
+        "Взаимодействие с заинтересованными сторонами",
+        "Работа с нанимающими менеджерами",
+        "Стратегия привлечения талантов",
         "Анализ рынка труда",
-        "Согласование офферов",
-        "Формирование кадрового резерва",
-        "Подбор на основе данных"
+        "Зарплатный бенчмаркинг",
+        "Рекрутинговая аналитика",
+        "Оптимизация воронки",
+        "Boolean Search",
+        "X-Ray Search",
+        "LinkedIn Recruiter",
+        "GitHub Sourcing",
+        "Data-driven recruitment",
+        "Переговоры по офферам",
+        "Работа с ATS",
+        "Адаптация сотрудников",
+        "Сопровождение кандидатов",
+        "Candidate Experience",
+        "Наставничество"
       ]
     },
     "experience": {
@@ -280,10 +289,10 @@ export const cvData: CvDictionary = {
           "company": "Andersen",
           "position": "Ведущий технический рекрутер / Руководитель группы подбора",
           "paragraphs": [
-            "Работа с заказчиками и консалтинг: консультирую нанимающих менеджеров по трендам рынка, зарплатным бенчмаркам и реалистичности найма — это ускорило принятие решений примерно на 20%. Проводила intake-сессии и уточняла профили идеальных кандидатов, чтобы снизить количество пересогласований и лишней работы.",
-            "Управление полным циклом подбора: вела рекрутинг для 50+ одновременных технических вакансий, обеспечивая выполнение плана найма на 90%+. Курировала весь цикл — от заявки до выхода оффера, контролируя соблюдение SLA по всем позициям.",
-            "Аналитика и разведка рынка: проводила market mapping и анализ спроса и предложения, корректируя стратегию найма для дефицитных ролей. Собирала дашборды по рекрутинговой аналитике — это повысило прозрачность и предсказуемость найма.",
-            "Процессы и стратегия: выстроила стратегический пайплайн подбора, сократив время закрытия вакансий на 25% (с 45 до 33 дней). Увеличила конверсию воронки на 20% за счёт пересмотра подходов к сорсингу и скринингу. Снизила неэффективные усилия по поиску на 15% через фреймворк приоритизации вакансий."
+             "Взаимодействие с нанимающими менеджерами: консультировала 15+ нанимающих менеджеров по ситуации на рынке талантов, зарплатным ориентирам и реалистичности поиска, помогая сократить время принятия решений примерно на 20%. Проводила intake-сессии и уточняла профили идеального кандидата.",
+             "Полный цикл технического подбора: вела 50+ технических вакансий одновременно, обеспечивая выполнение плана найма на уровне 90%+. Вела процесс подбора от intake до принятия оффера и контролировала соблюдение SLA.",
+             "Аналитика рынка и рекрутмента: анализировала рынок талантов и соотношение спроса и предложения, чтобы улучшать подходы к поиску специалистов на сложные вакансии. Разработала дашборды по рекрутинговой аналитике для повышения прозрачности и прогнозируемости найма.",
+             "Оптимизация процессов подбора: выстроила целевые воронки кандидатов, сократив Time-to-Fill на 25% — с 45 до 33 дней. Повысила конверсию воронки на 20% и сократила низкоэффективную sourcing-активность на 15% за счёт приоритизации вакансий."
           ]
         },
         {
@@ -291,10 +300,10 @@ export const cvData: CvDictionary = {
           "company": "Aston",
           "position": "Технический рекрутер",
           "paragraphs": [
-            "Закрывала позиции уровня senior и architect (Java, .NET, DevOps, Data). Ежеквартально закрывала 15+ сложных вакансий с уровнем принятия офферов 92%.",
-            "Аналитика и исследование рынка: проводила зарплатные обзоры и market mapping, делая офферы более конкурентными и снижая количество отказов. Создала систему отчётности для нанимающих менеджеров, сократив время согласования заявок на 20%.",
-            "Качество и решения по найму: внедрила структурированный скрининг, благодаря чему 95% кандидатов успешно проходили испытательный срок. Улучшила опыт кандидатов, что повысило конверсию в оффер.",
-            "Стратегический поиск: сформировала базу из 2 000+ нишевых кандидатов, сократив время найма примерно на 10 дней."
+             "Полный цикл подбора: вела подбор специалистов уровня senior и architect по направлениям Java, .NET, DevOps и Data. Закрывала 15+ сложных вакансий в квартал при уровне принятия офферов 92%.",
+             "Аналитика рынка и рекрутмента: проводила исследование зарплат и анализ рынка для повышения конкурентоспособности предложений и снижения количества отказов от офферов. Разработала систему отчётности для нанимающих менеджеров.",
+             "Качество подбора, адаптация и сопровождение: внедрила структурированный первичный отбор, что способствовало успешному прохождению испытательного срока в 95% случаев. Поддерживала связь с новыми сотрудниками и взаимодействовала с HR, HRBP и нанимающими менеджерами в период адаптации.",
+             "Технический поиск: выстроила базу из 2 000+ специалистов в узких технических направлениях, сократив Time-to-Hire примерно на 10 дней."
           ]
         },
         {
@@ -303,8 +312,8 @@ export const cvData: CvDictionary = {
           "position": "Корпоративный рекрутер",
           "paragraphs": [
             "Закрывала 40+ вакансий ежемесячно, перевыполняя план на 110%.",
-            "Проводила массовый скрининг (50+ интервью в день), обеспечивая быстрые циклы найма.",
-            "Снизила отсев кандидатов на 15% за счёт улучшения коммуникации и вовлечения.",
+             "Проводила первичный отбор в условиях массового подбора, оценивая 50+ кандидатов в день через структурированные рекрутинговые процессы.",
+             "Сократила отказы кандидатов на 15% за счёт более последовательной коммуникации и взаимодействия с кандидатами.",
             "Поддерживала 90%+ успешное прохождение испытательного срока."
           ]
         }
@@ -316,7 +325,7 @@ export const cvData: CvDictionary = {
         {
           "period": "2018 — 2022",
           "institution": "Московский Международный Университет",
-          "degree": "Бакалавр"
+          "degree": "Бакалавриат, Бизнес-администрирование, Менеджмент и управление персоналом"
         }
       ]
     },
@@ -326,19 +335,19 @@ export const cvData: CvDictionary = {
         {
           "file": "1738161283005.jpeg",
           "name": "Ревью производительности",
-          "date": "29 января 2025",
+          "date": "январь 2025",
           "issuer": "Aston"
         },
         {
           "file": "1701692277392.jpeg",
           "name": "IT Sourcer",
-          "date": "1 декабря 2023",
+          "date": "декабрь 2023",
           "issuer": "Aston"
         },
         {
           "file": "1704277092925.jpeg",
-          "name": "IT-RECRUITMENT CERTIFICATION COURSE",
-          "date": "5 сентября 2023",
+          "name": "IT-Recruitment Certification Course",
+          "date": "сентябрь 2023",
           "issuer": "HRPR"
         }
       ]
@@ -352,7 +361,7 @@ export const cvData: CvDictionary = {
         },
         {
           "name": "Английский",
-          "level": "Intermediate (B1)"
+          "level": "B1 (Intermediate)"
         }
       ]
     },
