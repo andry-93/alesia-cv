@@ -100,7 +100,7 @@ Split by rendering needs:
 ### Static Assets
 
 - Move images to `public/img/*`
-- Keep CV file at `public/Alesia_Zayats_CV.docx`
+- Keep CV file at `public/Alesia_Zayats_CV.pdf`
 
 ## SEO and i18n Rules
 

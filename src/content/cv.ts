@@ -181,7 +181,7 @@ export const cvData: CvDictionary = {
       "linkedin": "https://linkedin.com/in/alesiaromasko",
       "telegram": "https://t.me/lesiaRomashko",
       "downloadLabel": "Download CV",
-      "cvFile": "Alesia_Zayats_CV.docx"
+      "cvFile": "Alesia_Zayats_CV.pdf"
     }
   },
   "ru": {
@@ -364,7 +364,7 @@ export const cvData: CvDictionary = {
       "linkedin": "https://linkedin.com/in/alesiaromasko",
       "telegram": "https://t.me/lesiaRomashko",
       "downloadLabel": "Скачать резюме",
-      "cvFile": "Alesia_Zayats_CV.docx"
+      "cvFile": "Alesia_Zayats_CV_RU.pdf"
     }
   }
 } as CvDictionary;
