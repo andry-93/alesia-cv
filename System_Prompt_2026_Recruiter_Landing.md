@@ -10,7 +10,7 @@
 - Статика: HTML + CSS + JS (без фреймворков или сборщиков)
 - Данные: `data.js` — единый объект `cvData` с EN/RU локалями
 - Рендеринг: `script.js` — `renderPage(lang)` перерисовывает весь DOM при смене языка
-- CV файл: `Alesia_Zayats_CV.pdf` (редактируется через unpack → XML → repack)
+- CV файл: `Alesia_Zayats_CV.docx` (редактируется через unpack → XML → repack)
 
 ### Мультиязычность
 - Детекция: URL query param `?lang=ru` → localStorage → `navigator.language`
@@ -78,10 +78,10 @@
 ### Редактирование DOCX
 ```bash
 # Распаковать
-cp Alesia_Zayats_CV.pdf cv_temp.zip && unzip -o cv_temp.zip -d unpacked_cv/
+cp Alesia_Zayats_CV.docx cv_temp.zip && unzip -o cv_temp.zip -d unpacked_cv/
 # Отредактировать unpacked_cv/word/document.xml
 # Запаковать обратно
-cd unpacked_cv && zip -r ../Alesia_Zayats_CV.pdf * && cd ..
+cd unpacked_cv && zip -r ../Alesia_Zayats_CV.docx * && cd ..
 ```
 
 ## ПРОВЕРКА КАЧЕСТВА

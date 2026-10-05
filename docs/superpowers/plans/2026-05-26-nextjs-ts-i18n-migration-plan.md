@@ -19,7 +19,7 @@
 - Create: `src/lib/site.ts`, `src/lib/metadata.ts`, `src/lib/jsonld.ts`
 - Create: `src/components/cv/CvPage.tsx`
 - Create: `src/components/cv/CvPageClient.tsx`
-- Create: `public/img/*` (copy from current `img/*`), `public/Alesia_Zayats_CV.pdf`, `public/googleca5eec5d041d5790.html`
+- Create: `public/img/*` (copy from current `img/*`), `public/Alesia_Zayats_CV.docx`, `public/googleca5eec5d041d5790.html`
 - Modify: `README.md` (new run/build/dev instructions)
 
 ### Task 1: Bootstrap Next.js + TypeScript skeleton
@@ -235,7 +235,7 @@ export const cvData: CvDictionary = {
       linkedin: 'https://linkedin.com/in/alesiaromasko',
       telegram: 'https://t.me/lesiaRomashko',
       downloadLabel: 'Download CV',
-      cvFile: '/Alesia_Zayats_CV.pdf'
+      cvFile: '/Alesia_Zayats_CV.docx'
     }
   },
   ru: {
@@ -273,7 +273,7 @@ export const cvData: CvDictionary = {
       linkedin: 'https://linkedin.com/in/alesiaromasko',
       telegram: 'https://t.me/lesiaRomashko',
       downloadLabel: 'Скачать резюме',
-      cvFile: '/Alesia_Zayats_CV_RU.pdf'
+      cvFile: '/Alesia_Zayats_CV.docx'
     }
   }
 };
@@ -711,7 +711,7 @@ Acceptance:
 
 **Files:**
 - Create/Copy: `public/img/*`
-- Create/Copy: `public/Alesia_Zayats_CV.pdf`
+- Create/Copy: `public/Alesia_Zayats_CV.docx`
 - Create/Copy: `public/googleca5eec5d041d5790.html`
 - Modify: `README.md`
 
@@ -722,11 +722,11 @@ Run:
 ```bash
 mkdir -p public/img
 cp img/* public/img/
-cp Alesia_Zayats_CV.pdf public/
+cp Alesia_Zayats_CV.docx public/
 cp googleca5eec5d041d5790.html public/
 ```
 
-Expected: files available under `/img/...`, `/Alesia_Zayats_CV.pdf`, and verification html path.
+Expected: files available under `/img/...`, `/Alesia_Zayats_CV.docx`, and verification html path.
 
 - [ ] **Step 2: Update README for Next workflow**
 
